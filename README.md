@@ -10,7 +10,10 @@
 
 ## build
 ```
-make
+cargo build --release
+
+# or just
+cargo install getr
 ```
 
 ## usage and examples
