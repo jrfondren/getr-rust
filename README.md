@@ -6,6 +6,7 @@
 ## notes
 - this is a Rust translation of the C version at https://github.com/jrfondren/getr
 - for serious benchmarking I'd recommend [hyperfine](https://crates.io/crates/hyperfine), but I like getrusage() for giving peak RSS at the same time as a reasonable average.
+- if you like Rosetta Code you might like the eight other implementations of this same program that I've written in other languages.
 
 ## build
 ```
