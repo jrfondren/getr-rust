@@ -4,7 +4,7 @@
 - created as my simple "time for x in {1..100}; ..." benchmarks were a lot less pleasant on OpenBSD.
 
 ## notes
-- this is a Mercury translation of the C version at https://github.com/jrfondren/getr
+- this is a Rust translation of the C version at https://github.com/jrfondren/getr
 - for serious benchmarking I'd recommend [hyperfine](https://crates.io/crates/hyperfine), but I like getrusage() for giving peak RSS at the same time as a reasonable average.
 
 ## build
